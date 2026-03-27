@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Blender
+*.blend1
+*.blend2
+
+# Logs & debug output
+*.log
+*.txt
+!README*.txt
+blender_log*.txt
+laguna_inspect.txt
+nul
+
+# Test output
+test_output/
+
+# Debug/development scripts
+debug_*.py
+inspect_*.py
+convert_pescorr.py
+test_convert_headless.py
+
+# Distribution builds
+dist/
+build/
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Claude internal
+.claude/
+
+# Reference materials (not part of the addon)
+reference/

@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "vrm2gmod_playermodel"
+version = "0.1.0"
+name = "VRM to GMod Playermodel"
+tagline = "Convert VRM models to Garry's Mod playermodels with one click"
+maintainer = "Pescorr"
+type = "add-on"
+
+# Blender 4.2+ required for extension format
+blender_version_min = "4.2.0"
+
+# License
+license = ["SPDX:MIT"]
+
+# Category
+tags = ["Import-Export"]
+
+# Wheels (none needed, pure Python)
